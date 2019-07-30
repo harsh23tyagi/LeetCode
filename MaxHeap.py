@@ -47,7 +47,7 @@ class MaxHeap:
             return
         if(self.heap[index] > self.heap[parent]):
             self._swap(index, parent)
-        self._heapify(parent)
+            self._heapify(parent)
         pass
 
     # It bubblesDown the value from the top in the pop function as we excahnge the lower value at the end and put it at the root
